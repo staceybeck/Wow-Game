@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DCEA93DF1EC184F800C36FA4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DCEA93DE1EC184F800C36FA4 /* main.cpp */; };
+		DCEA93DF1EC184F800C36FA4 /* a15.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DCEA93DE1EC184F800C36FA4 /* a15.cpp */; };
+		DCEA93EC1EC185C900C36FA4 /* creature.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DCEA93EB1EC185C900C36FA4 /* creature.cpp */; };
+		DCEA93EE1EC2C4D300C36FA4 /* elf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DCEA93ED1EC2C4D300C36FA4 /* elf.cpp */; };
+		DCEA93F01EC2C70500C36FA4 /* human.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DCEA93EF1EC2C70500C36FA4 /* human.cpp */; };
+		DCEA93F21EC2C71700C36FA4 /* demon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DCEA93F11EC2C71700C36FA4 /* demon.cpp */; };
+		DCEA93F41EC2C72C00C36FA4 /* cyberdemon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DCEA93F31EC2C72C00C36FA4 /* cyberdemon.cpp */; };
+		DCEA93F61EC2C73D00C36FA4 /* balrog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DCEA93F51EC2C73D00C36FA4 /* balrog.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +30,19 @@
 
 /* Begin PBXFileReference section */
 		DCEA93DB1EC184F800C36FA4 /* a15_1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = a15_1; sourceTree = BUILT_PRODUCTS_DIR; };
-		DCEA93DE1EC184F800C36FA4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DCEA93DE1EC184F800C36FA4 /* a15.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = a15.cpp; sourceTree = "<group>"; };
+		DCEA93E51EC1853C00C36FA4 /* creature.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = creature.h; sourceTree = "<group>"; };
+		DCEA93E61EC1854D00C36FA4 /* demon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = demon.h; sourceTree = "<group>"; };
+		DCEA93E71EC1856000C36FA4 /* human.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = human.h; sourceTree = "<group>"; };
+		DCEA93E81EC1858600C36FA4 /* balrog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = balrog.h; sourceTree = "<group>"; };
+		DCEA93E91EC1859200C36FA4 /* cyberdemon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cyberdemon.h; sourceTree = "<group>"; };
+		DCEA93EA1EC185A000C36FA4 /* elf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = elf.h; sourceTree = "<group>"; };
+		DCEA93EB1EC185C900C36FA4 /* creature.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = creature.cpp; sourceTree = "<group>"; };
+		DCEA93ED1EC2C4D300C36FA4 /* elf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = elf.cpp; sourceTree = "<group>"; };
+		DCEA93EF1EC2C70500C36FA4 /* human.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = human.cpp; sourceTree = "<group>"; };
+		DCEA93F11EC2C71700C36FA4 /* demon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = demon.cpp; sourceTree = "<group>"; };
+		DCEA93F31EC2C72C00C36FA4 /* cyberdemon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cyberdemon.cpp; sourceTree = "<group>"; };
+		DCEA93F51EC2C73D00C36FA4 /* balrog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = balrog.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +75,19 @@
 		DCEA93DD1EC184F800C36FA4 /* a15_1 */ = {
 			isa = PBXGroup;
 			children = (
-				DCEA93DE1EC184F800C36FA4 /* main.cpp */,
+				DCEA93E51EC1853C00C36FA4 /* creature.h */,
+				DCEA93EB1EC185C900C36FA4 /* creature.cpp */,
+				DCEA93E61EC1854D00C36FA4 /* demon.h */,
+				DCEA93F11EC2C71700C36FA4 /* demon.cpp */,
+				DCEA93E71EC1856000C36FA4 /* human.h */,
+				DCEA93EF1EC2C70500C36FA4 /* human.cpp */,
+				DCEA93EA1EC185A000C36FA4 /* elf.h */,
+				DCEA93ED1EC2C4D300C36FA4 /* elf.cpp */,
+				DCEA93E91EC1859200C36FA4 /* cyberdemon.h */,
+				DCEA93F31EC2C72C00C36FA4 /* cyberdemon.cpp */,
+				DCEA93E81EC1858600C36FA4 /* balrog.h */,
+				DCEA93F51EC2C73D00C36FA4 /* balrog.cpp */,
+				DCEA93DE1EC184F800C36FA4 /* a15.cpp */,
 			);
 			path = a15_1;
 			sourceTree = "<group>";
@@ -120,7 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCEA93DF1EC184F800C36FA4 /* main.cpp in Sources */,
+				DCEA93F21EC2C71700C36FA4 /* demon.cpp in Sources */,
+				DCEA93EE1EC2C4D300C36FA4 /* elf.cpp in Sources */,
+				DCEA93EC1EC185C900C36FA4 /* creature.cpp in Sources */,
+				DCEA93DF1EC184F800C36FA4 /* a15.cpp in Sources */,
+				DCEA93F01EC2C70500C36FA4 /* human.cpp in Sources */,
+				DCEA93F41EC2C72C00C36FA4 /* cyberdemon.cpp in Sources */,
+				DCEA93F61EC2C73D00C36FA4 /* balrog.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +285,7 @@
 				DCEA93E41EC184F800C36FA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
